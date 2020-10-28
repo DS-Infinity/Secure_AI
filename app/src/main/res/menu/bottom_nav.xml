@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/graphs"
+        android:enabled="true"
+        android:title="Graphs"
+        android:icon="@drawable/ic_baseline_graphs_24"/>
+    <item
+        android:id="@+id/program"
+        android:enabled="true"
+        android:title="Program"
+        android:icon="@drawable/ic_baseline_program_24"/>
+
+</menu>
