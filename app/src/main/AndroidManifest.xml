@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityFour"
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up" />
+        <activity
+            android:name=".ActivityFour"
             android:label="Program" />
-        <activity android:name=".ActivityThree"
-            android:label="Graphs"/>
-        <activity android:name=".ActivityTwo"
-            android:label="Home"/>
+        <activity
+            android:name=".ActivityThree"
+            android:label="Graphs" />
+        <activity
+            android:name=".ActivityTwo"
+            android:label="Home" />
         <activity
             android:name=".MainActivity"
             android:label="Secure AI">

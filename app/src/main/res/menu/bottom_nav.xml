@@ -10,11 +10,17 @@
         android:id="@+id/graphs"
         android:enabled="true"
         android:title="Graphs"
-        android:icon="@drawable/ic_baseline_graphs_24"/>
+        android:icon="@drawable/ic_baseline_graphs_24" />
     <item
         android:id="@+id/program"
         android:enabled="true"
         android:title="Program"
-        android:icon="@drawable/ic_baseline_program_24"/>
+        android:icon="@drawable/ic_baseline_program_24" />
+
+    <item
+        android:id="@+id/signup"
+        android:enabled="true"
+        android:title="Sign up"
+        android:icon="@drawable/ic_sign_up_24" />
 
 </menu>

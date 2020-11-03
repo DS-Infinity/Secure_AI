@@ -14,6 +14,7 @@ public class ActivityThree extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     Intent intent;
     Intent intent2;
+    Intent intent3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class ActivityThree extends AppCompatActivity {
         setContentView(R.layout.activity_three);
         intent = new Intent (this, ActivityTwo.class);
         intent2 = new Intent(this, ActivityFour.class);
+        intent3 = new Intent(this, SignUpActivity.class);
 
         bottomNavigationView = (com.google.android.material.bottomnavigation.BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.graphs);
@@ -35,6 +37,9 @@ public class ActivityThree extends AppCompatActivity {
                         return true;
                     case R.id.program:
                         startActivity(intent2);
+                        return true;
+                    case R.id.signup:
+                        startActivity(intent3);
                         return true;
                 }
                 return false;

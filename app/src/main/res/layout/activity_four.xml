@@ -12,11 +12,9 @@
         android:layout_height="match_parent">
 
 
-
-
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:theme="@style/Theme.MaterialComponents.Light"
         app:cardCornerRadius="16dp"
         app:strokeColor="@android:color/white"
